@@ -1,147 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Student  Registration Form</title>
-
-
-
-
-    
-   
+    <title>STUDENT REGISTRATION FORM</title>
 </head>
-<body style="background-color: aqua;">
-  
-   <Table border="1"
-   style="margin-left:auto;margin-right:auto;width: 50%;">
-     <tr>
-          <th>
+<body>
+    <form>
+        <table bgcolor="pink" cellpading="15">
+    <tr>
 
-            Student Registration Form
+<td>FIRST NAME</td>
+<td>
 
+    <input type="text">(max 30 characters a-z and A-Z)
+    </td>
+    </tr>
+    <tr>
+        <td>LAST NAME</td>
+    
+<td>
+    <input type="text">(max 30 characters a-z and A-Z)
+</td>
+</tr>
+   <tr>
+    <td>
+    DATE OF BIRTH <label ></label></td>
+    <td>
+    <select name="DATE">
+    <option>date</option>
+    <option>1</option>
+     <option>2</option>
+    <option>3</option> 
+    <option>4</option>
+     <option>5</option>
+    <option>6</option>
+    <option>7</option>
+     <option>8</option>
+    <option>9</option>
+</select>
+<label ></label>
+<select name="Month">
+ <option>Month</option>
+    <option>January</option>
+     <option>February</option>
+    <option>March</option> 
+    <option>April</option>
+     <option>May</option>
+    <option>June</option>
+    <option>July</option>
+     <option>August</option>
+    <option>September</option>
+     <option>october</option>
+     <option>November</option>
+    <option>decamber</option>
 
-          </th>
-
-     </tr>
-
-
-
-
-   </Table>
-   <form>
-  
-      <div class="form-group">
-    Name: <input type="Name" placeholder="Enter Full Name">
-    <br><br>
-    Farher's Name: <input type="Father's Name">
-    <br><br>
-    Mother's Name: <input type="Mother's Name">
-    <br><br>
-    Phone Number: <input type="Phone Number" placeholder="017xxxxxxx">
-    <br><br>
-    Email: <input type="Email" placeholder="sample@example.com"><br><br>
-    Gender: <label for="Male">Male</label>
-    <input type="radio" id="Male" name="Gender" value="Male">
-    <label for="Female">Female</label>
-    <input type="radio" id="Female" name="Gender" value="Female">
-    <label for="other">other</label> 
-    <input type="radio" id="other" name="Gender" value="other"><br><br>
-     Date of Brith: <label></label>
-     <select name="day">
-        <option>Day</option>
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-        <!--Add  Days up to 31-->
-        </select>
-
-
-  <select name="Month">
-        <option>Month</option>
-        <option>January</option>
-        <option>February</option>
-        <option>March</option>
-        <option>April</option>
-        <option>May</option>
-        <option>June</option>
-        <option>july</option>
-        <option>August</option>
-        <option>September</option>
-        <option>october</option>
-        <option>November</option>
-        <option>December</option>
 
 </select>
 
- <select name="Year">
-        <option>year</option>
-        <option>2010</option>
-        <option>2011</option>
-        <option>2012</option>
-        <option>2013</option>
-        <option>2014</option>
-        <option>2015</option>
-        <option>2016</option>
-        <option>2017</option>
-        <option>2018</option>
-        <option>2019</option>
-        <option>2020</option>
-        <option>2021</option>
-        <option>2022</option>
-        <option>2023</option>
-        <option>2024</option>
-        <option>2025</option>
-        <option>2026</option>
+<label for="Year"></label>
+<select name="years">
+ <option>Year</option>
+    <option>2017</option>
+     <option>2018</option>
+    <option>2019</option> 
+    <option>2020</option>
+     <option>2021</option>
+    <option>2022</option>
+    <option>2023</option>
+     <option>2024</option>
+    <option>2025</option>
+     <option>2026</option>
+     <option>2027</option>
+    <option>2028</option></select>
+    </td>
+        </tr>
+        <tr>
+            <td>
+            Email ID </td>
+            <td>
+                <input type="text"></td>
+        </tr>
+<tr>
+    <td>
+        MOBILE NUMBER
+    </td>
+<td><input type="number">(10 digit Number)
 
+</td>
+</tr>
+<tr>
+    <td>GENDER</td>
+    <td>
+ <label for="Male">Male</label>
+    <input type="radio" id="Male" name="Gender" value="Male">
+    <label for="Female">Female</label>
+    <input type="radio" id="Female" name="Gender" value="Female">
+    </td>
+    </tr>
 
-</select><br><br>
-Address: <input type="Address" placeholder="street-house-road:-">
-<br><br>
-Blood Group:<label></label>
-       <select>
-       <option>Select</option>
-         <option>A+</option>
-        <option>B+</option>
-        <option>AB+</option>
-        <option>o+</option>
-        <option>o-</option>
-        <option>A-</option>
+    <tr>
+        <td>ADDRESS</td>
+    <td>
+        <textarea rows="4" cols="40">
+            Default text here.
+        </textarea>
+    </td>
+    </tr>
 
-       </select> <br><br>
-       
-       Department:
-        
- <label for="CSE">CSE</label>
-    <input type="radio" id="CSE" name="Department" value="CSE">
-    <label for="EEE">EEE</label>
-    <input type="radio" id="EEE" name="Department" value="EEE">
-    <label for="BBA">BBA</label> 
-    <input type="radio" id="BBA" name="Department" value="BBA"><br>
+    <tr>
+        <td>CITY</td>
+        <td>
+            <input type="text">(max 30 characters a-z and A-Z)
+
+        </td>
+</tr>
+<tr>
+    <td>PIN CODE</td>
+    <td>
+        <input type="text">(6 digit number)
+    </td>
+    </tr>
+
+    <tr>
+    <td>STATE</td>
+    <td>
+        <input type="text">(max 30 characters a-z and A-Z)
+    </td>
+    </tr>
+
+    <tr>
+    <td>COUNTRY</td>
+    <td>
+        <input type="text" placeholder="India">
+    </td>
+    </tr>
+
+<tr>
+    <td>HOBBIES</td>
+    <td>
+       <label for="Drawing">Drawing</label>
+    <input type="checkbox" id="Drawing" name="hobbies" value="Drawing">
+     <label for="Singing">Singing</label>
+    <input type="checkbox" id="Singing" name="hobbies" value="Singing">]
+ <label for="Dancing">Dancing</label>
+    <input type="checkbox" id="Dancing" name="hobbies" value="Dancing">
+     <label for="Singing">Dancing</label>
+    <input type="checkbox" id="Singing" name="hobbies" value="Singing">]
 
     
-    Course: 
-    <label for="C">C</label>
-    <input type="checkbox" id="C" name="Course" value="C">
-    <label for="C++">C++</label>
-    <input type="checkbox" id="C++" name="Course" value="C++">
-    <label for="Java">Java</label> 
-    <input type="checkbox" id="Java" name="Course" value="Java">
-  <label for="AI">AI</label>
-    <input type="checkbox" id="AI" name="Course" value="AI">
-    <label for="Machine learning">Machine learning</label>
-    <input type="checkbox" id="Machine learning" name="Course" value="Machine learning">
-    <label for="Robotics">Robotics</label> 
-    <input type="checkbox" id="Robotics" name="Course" value="Robotics"><br><br>
-    photo: <input type="file"><br><br>
-     submit
-     <input type="Reset">
-  
 
+    </td>
 
-   </form> 
-    
-    
+</table>
+
+    </form>
+   
 </body>
-       
-</html>
+</html> 
